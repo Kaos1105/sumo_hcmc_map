@@ -13,8 +13,7 @@
                lcSpeedGain="1.0"
                lcStrategic="1.0"
                lcCooperative="0.5"
-               probability="0.85" /> 
-
+               probability="0.80" /> 
         <vType id="car" 
                vClass="passenger" 
                length="4.5" 
@@ -25,6 +24,16 @@
                sigma="0.5"
                minGap="2.5"
                probability="0.15" /> 
-               
+        <vType id="bus" 
+               vClass="bus" 
+               length="12.0" 
+               width="2.6" 
+               maxSpeed="13.0" 
+               accel="1.0" 
+               decel="3.5" 
+               minGap="3.0"
+               lcPushy="0.5" 
+               lcImpatience="0.5"
+               probability="0.05" />
     </vTypeDistribution>
 </additional>
