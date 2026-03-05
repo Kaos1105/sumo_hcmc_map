@@ -1,39 +1,118 @@
 <additional>
-    <vTypeDistribution id="hcmc_fleet">
-        
-        <vType id="motorbike" 
-               vClass="motorcycle" 
-               length="1.8" 
-               width="0.8" 
-               maxSpeed="16.0" 
-               accel="2.5" 
-               decel="4.0" 
-               sigma="0.3"
-               minGap="1.0"
-               lcSpeedGain="1.0"
-               lcStrategic="1.0"
-               lcCooperative="0.5"
-               probability="0.80" /> 
-        <vType id="car" 
-               vClass="passenger" 
-               length="4.5" 
-               width="1.8" 
-               maxSpeed="14.0" 
-               accel="1.8" 
-               decel="4.5" 
-               sigma="0.5"
-               minGap="2.5"
-               probability="0.15" /> 
-        <vType id="bus" 
-               vClass="bus" 
-               length="12.0" 
-               width="2.6" 
-               maxSpeed="13.0" 
-               accel="1.0" 
-               decel="3.5" 
-               minGap="3.0"
-               lcPushy="0.5" 
-               lcImpatience="0.5"
-               probability="0.05" />
-    </vTypeDistribution>
+	<vTypeDistribution id="hcmc_fleet">
+		<vType id="motorbike" 
+						vClass="motorcycle" 
+						length="1.8" 
+						width="0.8" 
+						maxSpeed="16.0" 
+						accel="2.5" 
+						decel="4.0" 
+						sigma="0.3"
+						minGap="1.0"
+						lcSpeedGain="1.0"
+						lcStrategic="1.0"
+						lcCooperative="0.5"
+						probability="0.80" />
+		<vType id="car" 
+						vClass="passenger" 
+						length="4.5" 
+						width="1.8" 
+						maxSpeed="14.0" 
+						accel="1.8" 
+						decel="4.5" 
+						sigma="0.5"
+						minGap="2.5"
+						probability="0.15" />
+		<vType id="bus" 
+						vClass="bus" 
+						length="12.0" 
+						width="2.6" 
+						maxSpeed="13.0" 
+						accel="1.0" 
+						decel="3.5" 
+						minGap="3.0"
+						lcPushy="0.5" 
+						lcImpatience="0.5"
+						probability="0.05" />
+	</vTypeDistribution>
+	<laneAreaDetector id="e2_1265822568#0_0_z1" lane="1265822568#0_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1265822568#0_0_z2" lane="1265822568#0_0" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1265822568#0_0_z3" lane="1265822568#0_0" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1265822568#0_1_z1" lane="1265822568#0_1" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1265822568#0_1_z2" lane="1265822568#0_1" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1265822568#0_1_z3" lane="1265822568#0_1" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1265822568#0_2_z1" lane="1265822568#0_2" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1265822568#0_2_z2" lane="1265822568#0_2" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1265822568#0_2_z3" lane="1265822568#0_2" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1422795954_0_z1" lane="1422795954_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1422795954_0_z2" lane="1422795954_0" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1422795954_0_z3" lane="1422795954_0" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1422795954_1_z1" lane="1422795954_1" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1422795954_1_z2" lane="1422795954_1" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1422795954_1_z3" lane="1422795954_1" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1464602838_0_z1" lane="1464602838_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1464602838_0_z2" lane="1464602838_0" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1464602838_0_z3" lane="1464602838_0" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1464602838_1_z1" lane="1464602838_1" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1464602838_1_z2" lane="1464602838_1" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1464602838_1_z3" lane="1464602838_1" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1345417677#0_0_z1" lane="1345417677#0_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1345417677#0_0_z2" lane="1345417677#0_0" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1345417677#0_0_z3" lane="1345417677#0_0" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1267462152#1_0_z1" lane="1267462152#1_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1267462152#1_0_z2" lane="1267462152#1_0" pos="-50.44" length="20.44" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1267462152#1_0_z3" lane="1267462152#0_0" pos="-30." length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1267462152#1_1_z1" lane="1267462152#1_1" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1267462152#1_1_z2" lane="1267462152#1_1" pos="-50.44" length="20.44" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1267462152#1_1_z3" lane="1267462152#0_1" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1221994726#0_0_z1" lane="1221994726#0_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1221994726#0_0_z2" lane="1221994726#0_0" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1221994726#0_0_z3" lane="1221994726#0_0" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1221994726#0_1_z1" lane="1221994726#0_1" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1221994726#0_1_z2" lane="1221994726#0_1" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_1221994726#0_1_z3" lane="1221994726#0_1" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_326849848_0_z1" lane="326849848_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_326849848_0_z2" lane="326849848_0" pos="-49.95" length="19.95" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_326849848_0_z3" lane="326849849_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_326849848_1_z1" lane="326849848_1" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_326849848_1_z2" lane="326849848_1" pos="-49.95" length="19.95" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_326849848_1_z3" lane="326849849_1" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_326849848_2_z1" lane="326849848_2" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_326849848_2_z2" lane="326849848_2" pos="-49.95" length="19.95" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_326849848_2_z3" lane="326849849_2" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_326849848_3_z1" lane="326849848_3" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_326849848_3_z2" lane="326849848_3" pos="-49.95" length="19.95" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_193092894#0_0_z1" lane="193092894#0_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_193092894#0_0_z2" lane="193092894#0_0" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_193092894#0_0_z3" lane="193092894#0_0" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_193092894#0_1_z1" lane="193092894#0_1" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_193092894#0_1_z2" lane="193092894#0_1" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_193092894#0_1_z3" lane="193092894#0_1" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_817095789#2_0_z1" lane="817095789#2_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_817095789#2_0_z2" lane="817095789#2_0" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_817095789#2_0_z3" lane="817095789#2_0" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_817095789#2_1_z1" lane="817095789#2_1" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_817095789#2_1_z2" lane="817095789#2_1" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_817095789#2_1_z3" lane="817095789#2_1" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_817095789#2_2_z1" lane="817095789#2_2" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_817095789#2_2_z2" lane="817095789#2_2" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_817095789#2_2_z3" lane="817095789#2_2" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_408246393#6_0_z1" lane="408246393#6_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_408246393#6_0_z2" lane="408246393#6_0" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_408246393#6_0_z3" lane="408246393#6_0" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_408246393#6_1_z1" lane="408246393#6_1" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_408246393#6_1_z2" lane="408246393#6_1" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_408246393#6_1_z3" lane="408246393#6_1" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_408246393#6_2_z1" lane="408246393#6_2" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_408246393#6_2_z2" lane="408246393#6_2" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_408246393#6_2_z3" lane="408246393#6_2" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_193092895#2_0_z1" lane="193092895#2_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_193092895#2_0_z2" lane="193092895#2_0" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_193092895#2_0_z3" lane="193092895#2_0" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_302854713#2_0_z1" lane="302854713#2_0" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_302854713#2_0_z2" lane="302854713#2_0" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_302854713#2_0_z3" lane="302854713#2_0" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_302854713#2_1_z1" lane="302854713#2_1" pos="-30.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_302854713#2_1_z2" lane="302854713#2_1" pos="-60.00" length="30.00" freq="1" file="./e2_output.xml" />
+	<laneAreaDetector id="e2_302854713#2_1_z3" lane="302854713#2_1" pos="-90.00" length="30.00" freq="1" file="./e2_output.xml" />
 </additional>
